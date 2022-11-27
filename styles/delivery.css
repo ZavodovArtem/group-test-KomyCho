@@ -1,0 +1,60 @@
+body {
+    font-family: 'Neucha', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+:root {
+    --color-night: #150905;
+    --color-orange: #D77E2A;
+    
+    --txt-color-pink: #FFD8D8;
+
+    --font-basic: 'Nunito', sans-serif;
+    --font-h1: 'Neucha', cursive;
+}
+.page {
+    font-family: var(--font-basic);
+    background-color: var(--color-night);
+    color: var(--txt-color-pink);
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.aic {
+    align-items: center;
+}
+.border {                                           /*класс для разделительной полосы*/
+    border-bottom: 2px solid var(--color-orange);
+    position: static;
+    z-index: 1  ;
+}
+.header__p--menu {                                         /*Модификатор для P в хедере*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.header__list a {                                        /* меню */
+    color: var(--txt-color-pink);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.header__navigation--point {                    /*пункты меню*/
+    list-style: none;
+    margin-right: 50px;
+}
+.header__time--ml16 {                               /*время по центру с 9.00 - 22.00*/
+    margin-left: 16px;
+}
